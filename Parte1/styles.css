@@ -62,6 +62,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #4a90e2;
 }
 
+#static-link, #static-link:visited {
+  color: blue !important;
+  text-decoration: none;
+}
+
+
 /* Footer */
 footer {
   background-color: #333;
@@ -77,7 +83,7 @@ footer {
 .welcome-content, .resume-content, .interests-content {
   padding: 2rem;
   margin: 60px auto 60px;
-  max-width: 1200px;
+  max-width: 800px;
 }
 
 /* Welcome Page Styles */

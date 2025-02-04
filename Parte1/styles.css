@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Estilos globales*/
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
-  border-bottom: 3px solid #87CEEB; /* Light blue underline for all titles */
+  border-bottom: 3px solid #87CEEB; /* R: Los titulos deben tener un subrayado de color claro */
   padding-bottom: 0.5rem;
   display: inline-block;
 }
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.75rem 2rem;
   text-align: right;
   border-bottom: 1px solid #e9ecef;
-  margin-top: 48px; /* Added margin to prevent navbar overlap */
+  margin-top: 48px; /* Margen para la Navbar */
 }
 
 .title-text {
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
 }
 
-/* Navigation Bar */
+/* Navbar */
 .navbar {
   background-color: #333;
   position: fixed;
@@ -74,9 +74,6 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 /* Content Padding for Fixed Navbar */
@@ -221,3 +218,5 @@ footer {
 .interests-grid img:hover {
   transform: scale(1.05);
 }
+
+/* To do: footer estatico abajo y los enlaces que se abran en una nueva pestaña
